@@ -7,3 +7,15 @@
     margin: 10px 0px;
     box-sizing: border-box;
 }
+.second-form__label {
+    width: bolder;
+    color: blue;
+}
+.second-form__input {
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 5px;
+}
