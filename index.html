@@ -9,27 +9,12 @@
     <link rel="stylesheet" href="./styles/reset.css">
 </head>
 <body>
-    <input type="radio" name="gender" value="male" >мужчина <br>
-    <input type="radio" name="gender" value="female"checked>женщина <br>
-    <input type="radio" name="gender" value="other">другое
-    <form action="">
-        LastName:<br>
-        <input type="text" name="lastname" value="input lastname"><br>
-        LastName:<br>
-        <input type="text" name="firstname" value="input firstname"><br>
+    <form class="main-form">
+        Name: <br>
+        <input type="text" name="fname" class="main-form__input" >
         <br>
-        <input type="submit" value="Submit">
-        <fieldset>
-            <legend>Персональная информация :</legend>
-            Name:<br>
-            <input type="text" name="name" value="value">
-            <br>
-            <input type="submit" value="тыкнуть сюда">
-        </fieldset>
-    </form>
-    <form action="#action" autocomplete="off">
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
+        Lastname: <br>
+        <input type="text" name="lname" class="main-form__input">
     </form>
 </body>
 </html>
