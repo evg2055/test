@@ -1,3 +1,4 @@
+
 .main-form {
     padding: 20px;
 }
@@ -18,4 +19,17 @@
     box-sizing: border-box;
     border: 2px solid red;
     border-radius: 5px;
+}
+.therd-form {
+    margin: 20px;
+}
+.therd-form__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 10px;
+    border: 1px solid brown ;
+    outline: none;
+}
+.therd-form__input:focus {
+    background-color: cadetblue;
 }
