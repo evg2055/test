@@ -45,3 +45,44 @@
 .search-form__input:focus {
     width: 100%;
 }
+.res-f {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.res-f__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+/*.res-f__label {
+    display: block;
+    width: 10%;
+}*/
+.res-f__input {
+    display: block;
+    width: 85%;
+    padding: 5px;
+    outline: none;
+}
+.res-f__text-area {
+    height: 300px;
+}
+.res-f__sub {
+    align-self: flex-end;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    .res-f__label, .res-f__input {
+        width: 100%;
+        margin: 0px;
+    }
+}
