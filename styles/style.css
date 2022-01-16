@@ -27,9 +27,11 @@
     width: 100%;
     padding: 12px 20px;
     margin: 0px 10px;
-    border: 1px solid brown ;
+    border: 3px solid brown ;
+    transition: 1s;
     outline: none;
 }
 .therd-form__input:focus {
-    background-color: cadetblue;
+    border: blue 3px solid;
+    
 }
