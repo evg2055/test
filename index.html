@@ -4,57 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/reset.css">
+    <title>Document</title>
 </head>
 <body>
-    <form class="main-form">
-        Name: <br>
-        <input type="text" name="fname" class="main-form__input" >
-        <br>
-        Lastname: <br>
-        <input type="text" name="lname" class="main-form__input">
-    </form>
-    <form class="second-form">
-        <label for="fname" class="second-form__label">name</label>
-        <input type="text" class="second-form__input" name="fname">
-        <label for="lname" class="second-form__label">lname</label>
-        <input type="text" class="second-form__input" name="lname">
-    </form>
-    <form class="therd-form">
-        <label for="fname" class="therd-form__label">name</label>
-        <input type="text" class="therd-form__input">
-        <label for="lname" class="therd-form__label">lname</label>
-        <input type="text" class="therd-form__input">
-    </form>
-    <form class="search-form">
-        <input type="text" name="search" placeholder="search" class="search-form__input">
-    </form>
-    <form class="res-f">
-        <div class="res-f__row">
-            <label for="fname" class="res-f__label">First Name</label>
-            <input type="text" class="res-f__input" placeholder="Your name">
-        </div>
-        <div class="res-f__row">
-            <label for="lname" class="res-f__label">Last Name</label>
-            <input type="text" class="res-f__input" placeholder="Your  last name">
-        </div>
-        <div class="res-f__row">
-        <label for="country" class="res-f__label">Country</label>
-        <select name="country" class="res-f__input">
-            <option value="au">Australia</option>
-            <option value="ca">Canada</option>
-            <option value="usa">USA</option>
-        </select>
-        </div>
-        <div class="res-f__row">
-            <label for="subject" class="res-f__label">Subject</label>
-            <textarea name="subject" class="res-f__input res-f__text-area" placeholder="Write here something"></textarea>
-        </div>
-        <input type="submit" value="submit" class="res-f__sub"> 
-
-    </form>
-
+    <input type="text" id="inp">
+    <button id="button">add</button>
+    <div id="tagsBlock" class="tagsBlock"></div>
 </body>
 </html>
+<script src="./script.js"></script>
+<!-- <Script src="./script2.js"></Script> -->

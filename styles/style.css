@@ -1,88 +1,10 @@
-
-.main-form {
-    padding: 20px;
-}
-.main-form__input {
-    width: 30%;
-    padding: 5px 15px;
-    margin: 10px 0px;
-    box-sizing: border-box;
-}
-.second-form__label {
-    width: bolder;
-    color: blue;
-}
-.second-form__input {
-    width: 200px;
-    height: auto;
-    padding: 15px;
-    box-sizing: border-box;
-    border: 2px solid red;
-    border-radius: 5px;
-}
-.therd-form {
-    margin: 20px;
-}
-.therd-form__input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 0px 10px;
-    border: 3px solid brown ;
-    transition: 1s;
-    outline: none;
-}
-.therd-form__input:focus {
-    border: blue 3px solid;
-    
-}
-.search-form__input {
-    width: 140px;
-    border: 2px solid blue;
-    border-radius: 4px;
-    font-size: 16px;
-    transition:  0.4s ease-in-out;
-}
-.search-form__input:focus {
-    width: 100%;
-}
-.res-f {
+.tagsBlock {
     display: flex;
-    flex-direction: column;
-    
-    background-color: cadetblue;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
 }
-.res-f__row {
-    display: flex;
-    flex-wrap: wrap;
+p {
+    display:inline-block ;
+    background-color: aqua;
+    border-radius: 15px;
     margin: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-/*.res-f__label {
-    display: block;
-    width: 10%;
-}*/
-.res-f__input {
-    display: block;
-    width: 85%;
-    padding: 5px;
-    outline: none;
-}
-.res-f__text-area {
-    height: 300px;
-}
-.res-f__sub {
-    align-self: flex-end;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 10px;
-}
-@media screen and (max-width: 600px) {
-    .res-f__label, .res-f__input {
-        width: 100%;
-        margin: 0px;
-    }
+    padding: 8px;
 }
